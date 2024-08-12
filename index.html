@@ -29,6 +29,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            background-image: linear-gradient(to right, #8800ff, #c800ff, #a3469e, #be54a1, #d663a5);
         }
 
         .container {
@@ -40,11 +41,12 @@
             align-items: center;
             flex-direction: column;
 
-            background: #b6c2ff5d;
+            background: #ffffff;
             box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
             backdrop-filter: blur(0px);
             -webkit-backdrop-filter: blur(0px);
             border-radius: 10px;
+
         }
 
         .lottie {
@@ -129,7 +131,7 @@
         <label for="decimal">Decimal => Hexadecimal</label><br>
         <input type="number" id="decimal" placeholder="Enter Decimal Number (max:17 digit)" autofocus autocomplete="off"><br>
         <button type="button" id="btn">CONVERT</button>
-        <textarea id="txtarea" placeholder="NOTHING TO SHOW"></textarea>
+        <textarea id="txtarea" placeholder="NOTHING TO SHOW" readonly></textarea>
     </div>
 
     <script>
